@@ -1,0 +1,39 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.weatherapplication.AddCitiesFragment">
+
+    <EditText
+        android:id="@+id/title_input"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/round_boder"
+        android:drawableStart="@drawable/ic_location_city"
+        android:drawablePadding="16dp"
+        android:ems="10"
+        android:hint="Enter the city name"
+        android:inputType="textPersonName"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/add_buttons"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/round_bg_btn"
+        android:text="Add City"
+        android:textAllCaps="false"
+        android:textColor="#FAF8F8"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        />
+
+
+</FrameLayout>
